@@ -59,8 +59,7 @@
     }
     .mobile {
         display: flex;
-    }
-    .btmbar {
+        height: 100vh;
         background-image: url(../assets/img/WoodTile64x25.png);
         background-repeat: repeat-x;
         position: static;
