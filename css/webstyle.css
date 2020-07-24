@@ -3,8 +3,16 @@
     .mobile {
         display: none;
     }
+    body {
+        height: 100vh;
+        background-image: url(../assets/img/WoodTile64x25.png);
+        background-repeat: repeat-x;
+        position: static;
+        background-position: bottom;
+    }
     .desktop {
         display: inline-flex;
+
     }
     html {
         background: url(../assets/img/woodTile64x64.png);
