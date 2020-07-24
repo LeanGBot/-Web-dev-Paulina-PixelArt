@@ -71,7 +71,7 @@
         height: 50vw;
         border: 4px white solid;
         border-radius: 50%;
-        margin-top: 2vh;
+        margin-top: 5vh;
     }
     html {
         background: url(../assets/img/woodTile64x64.png);
@@ -95,7 +95,6 @@
         background-size: cover;
         width: 100px;
         height: 100px;
-
         margin: 7vw;
     }
     .imginsta {
