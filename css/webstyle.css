@@ -93,8 +93,8 @@
     .imginsta, .imgfb, .imgtt, .imgdeviant, .imgpixilart, .imgartstation {
         background-repeat: no-repeat;
         background-size: cover;
-        width: 220px;
-        height: 220px;
+        width: 200%;
+        height: 200%;
 
         margin: 7vw;
     }
