@@ -25,12 +25,15 @@
         text-align: center;
         color: ivory;
     }
-    .imgfb, .imgtt, .imgdeviant, .imgpixilart, .imgartstation {
+    .imgfb, .imgtt, .imgdeviant, .imgpixilart, .imgartstation, .imginsta {
         background-repeat: no-repeat;
         background-size: cover;
         width: 10vw;
         height: 10vw;
         margin: auto;
+    }
+    .imginsta {
+        background-image: url(../assets/img/socialmedia/IconIG.png);
     }
     .imgfb {
         background-image: url(../assets/img/socialmedia/IconFB.png);
