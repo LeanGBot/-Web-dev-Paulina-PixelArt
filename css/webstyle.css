@@ -1,86 +1,119 @@
-/*General*/
-html {
-background: url(../assets/img/woodTile64x64.png) !important;
-background-attachment: fixed !important;
+/*Desktop*/
+@media only screen and (min-width: 600px) {
+    .mobile {
+        display: none;
+    }
+    .desktop {
+        display: inline-flex;
+    }
+    html {
+    background: url(../assets/img/woodTile64x64.png);
+    background-attachment: fixed;
+    }
+    .avatar {
+        background-image: url(../assets/img/AvatarInsta2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 15vw;
+        height: 15vw;
+        border: 4px white solid;
+        border-radius: 50%;
+    }
+    .titaut {
+        width: 90%;
+        margin-top: 5vh;
+        text-align: center;
+        color: ivory;
+    }
+    .imgfb, .imgtt, .imgdeviant, .imgpixilart, .imgartstation {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 10vw;
+        height: 10vw;
+        margin: auto;
+    }
+    .imgfb {
+        background-image: url(../assets/img/socialmedia/IconFB.png);
+    }
+    .imgtt {
+        background-image: url(../assets/img/socialmedia/IconTT.png);
+    }
+    .imgdeviant {
+        background-image: url(../assets/img/socialmedia/IconDA.png);
+    }
+    .imgpixilart {
+        background-image: url(../assets/img/socialmedia/IconPixil.png);
+    }
+    .imgartstation {
+        background-image: url(../assets/img/socialmedia/IconArtS.png);
+    }
 }
 
-/*Desktop*/
-.imglogo {
-    margin: 2vw;
-    width: 7vw;
-    height: 7vw;
-}
-.center {
-    text-align: center;
-    margin: auto;
-    width: 90%;
-}
-.title {
-    width: 90%;
-    margin-top: 5vh;
-    text-align: center;
-    color: ivory;
-}
-.avatar img {
-    border-radius: 50%;
-    border: 3px white solid;
-}
 
 /*Mobile*/
 @media only screen and (max-width: 600px) {
-    html {
-        background: url(../assets/img/woodTile64x64.png) !important;
-        background-attachment: fixed !important;
-    }
-    .title h1{
+    .desktop {
         display: none;
     }
-    .titautor {
-        display: none;
+    .mobile {
+        display: flex;
+        height: 100vh;
+        background-image: url(../assets/img/WoodTile64x25.png);
+        background-repeat: repeat-x;
+        position: static;
+        background-position: bottom;
     }
-    .imglogo {
-        width: 22vw;
-        height: 22vw;   
-    }
-    .media-social {
-        text-align: left;
-    }
-    .avatar img {
-        position: absolute;
+    .avatar {
+        background-image: url(../assets/img/AvatarInsta2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 60vw;
+        height: 60vw;
+        border: 4px white solid;
         border-radius: 50%;
-        left: 24vw;
-        top: 5vh;
+        margin-top: 5vh;
     }
-    .center {
-        text-align: left;
-        margin-left: -10vw;
-        width: 90%;
+    html {
+        background: url(../assets/img/woodTile64x64.png);
+        background-attachment: fixed;
     }
-    .imgtt, .imgfb, .imgdeviant, .imgpixil, .imgartst, .imginsta {
-        position: fixed;
+    .titaut h1{
+        display: none;
+    }
+    .mob_sec1, .mob_sec2 {
+        position: relative;
+        margin-bottom: 4vh;
+    }
+    .mob_sec1 {
+        margin-right: 10vw;
+    }
+    .mob_sec2 {
+        margin-left: 10vw;
+    }
+    .imginsta, .imgfb, .imgtt, .imgdeviant, .imgpixilart, .imgartstation {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 25vw;
+        height: 25vw;
+        margin: auto;
+        margin: 7vw;
     }
     .imginsta {
-        top: -9vh;
-        left: 22vw;
+        background-image: url(../assets/img/socialmedia/IconIG.png);
     }
     .imgfb {
-        top: -9vh;
-        left: 68vw;
+        background-image: url(../assets/img/socialmedia/IconFB.png);
     }
     .imgtt {
-        left: 22vw;
-        top: 9vh;
+        background-image: url(../assets/img/socialmedia/IconTT.png);
     }
     .imgdeviant {
-        left: 68vw;
-        top: 9vh;
+        background-image: url(../assets/img/socialmedia/IconDA.png);
     }
-    .imgpixil {
-        left: 22vw;
-        top: 28vh;        
+    .imgpixilart {
+        background-image: url(../assets/img/socialmedia/IconPixil.png);
     }
-    .imgartst {
-        left: 68vw;
-        top: 28vh;
+    .imgartstation {
+        background-image: url(../assets/img/socialmedia/IconArtS.png);
     }
 }
