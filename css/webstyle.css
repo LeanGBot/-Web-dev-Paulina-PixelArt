@@ -96,8 +96,8 @@
     .imginsta, .imgfb, .imgtt, .imgdeviant, .imgpixilart, .imgartstation {
         background-repeat: no-repeat;
         background-size: cover;
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
         margin: 7vw;
     }
     .imginsta {
@@ -113,7 +113,7 @@
         background-image: url(../assets/img/socialmedia/IconDA.png);
     }
     .imgpixilart {
-        /*background-image: url(../assets/img/socialmedia/IconPixil.png);*/
+        background-image: url(../assets/img/socialmedia/IconPixil.png);
     }
     .imgartstation {
         background-image: url(../assets/img/socialmedia/IconArtS.png);
