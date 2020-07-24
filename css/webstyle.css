@@ -67,11 +67,11 @@
         background-image: url(../assets/img/AvatarInsta2.png);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 60vw;
-        height: 60vw;
+        width: 50vw;
+        height: 50vw;
         border: 4px white solid;
         border-radius: 50%;
-        margin-top: 5vh;
+        margin-top: 2vh;
     }
     html {
         background: url(../assets/img/woodTile64x64.png);
@@ -93,8 +93,8 @@
     .imginsta, .imgfb, .imgtt, .imgdeviant, .imgpixilart, .imgartstation {
         background-repeat: no-repeat;
         background-size: cover;
-        width: 25vw;
-        height: 25vw;
+        width: 20vw;
+        height: 20vw;
         margin: auto;
         margin: 7vw;
     }
