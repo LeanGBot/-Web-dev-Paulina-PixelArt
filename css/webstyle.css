@@ -1,0 +1,86 @@
+/*General*/
+html {
+background: url(../assets/img/woodTile64x64.png) !important;
+background-attachment: fixed !important;
+}
+
+/*Desktop*/
+.imglogo {
+    margin: 2vw;
+    width: 7vw;
+    height: 7vw;
+}
+.center {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+.title {
+    width: 90%;
+    margin-top: 5vh;
+    text-align: center;
+    color: ivory;
+}
+.avatar img {
+    border-radius: 50%;
+    border: 3px white solid;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 600px) {
+    html {
+        background: url(../assets/img/woodTile64x64.png) !important;
+        background-attachment: fixed !important;
+    }
+    .title h1{
+        display: none;
+    }
+    .titautor {
+        display: none;
+    }
+    .imglogo {
+        width: 22vw;
+        height: 22vw;   
+    }
+    .media-social {
+        text-align: left;
+    }
+    .avatar img {
+        position: absolute;
+        border-radius: 50%;
+        left: 24vw;
+        top: 5vh;
+    }
+    .center {
+        text-align: left;
+        margin-left: -10vw;
+        width: 90%;
+    }
+    .imgtt, .imgfb, .imgdeviant, .imgpixil, .imgartst, .imginsta {
+        position: fixed;
+    }
+    .imginsta {
+        top: -9vh;
+        left: 22vw;
+    }
+    .imgfb {
+        top: -9vh;
+        left: 68vw;
+    }
+    .imgtt {
+        left: 22vw;
+        top: 9vh;
+    }
+    .imgdeviant {
+        left: 68vw;
+        top: 9vh;
+    }
+    .imgpixil {
+        left: 22vw;
+        top: 28vh;        
+    }
+    .imgartst {
+        left: 68vw;
+        top: 28vh;
+    }
+}
