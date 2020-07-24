@@ -73,7 +73,7 @@
         height: 50vw;
         border: 4px white solid;
         border-radius: 50%;
-        margin-top: 2vh;
+        margin-top: 5vh;
     }
     html {
         background: url(../assets/img/woodTile64x64.png);
@@ -115,6 +115,6 @@
         background-image: url(../assets/img/socialmedia/IconPixil.png);
     }
     .imgartstation {
-        background-image: url(../assets/img/socialmedia/IconArtS.png);
+        /*background-image: url(../assets/img/socialmedia/IconArtS.png);*/
     }
 }
