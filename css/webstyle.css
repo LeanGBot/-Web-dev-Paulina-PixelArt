@@ -59,7 +59,8 @@
     }
     .mobile {
         display: flex;
-        height: 100vh;
+    }
+    .btmbar {
         background-image: url(../assets/img/WoodTile64x25.png);
         background-repeat: repeat-x;
         position: static;
@@ -85,6 +86,7 @@
     .mob_sec1, .mob_sec2 {
         position: relative;
         top: 35vh;
+        height: 310px;
     }
     .mob_sec1 {
         margin-right: 12vw;
@@ -115,6 +117,6 @@
         background-image: url(../assets/img/socialmedia/IconPixil.png);
     }
     .imgartstation {
-        /*background-image: url(../assets/img/socialmedia/IconArtS.png);*/
+        background-image: url(../assets/img/socialmedia/IconArtS.png);
     }
 }
