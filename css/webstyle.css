@@ -84,7 +84,7 @@
     }
     .mob_sec1, .mob_sec2 {
         position: relative;
-        margin-bottom: 2vh;
+        top: 35vh;
     }
     .mob_sec1 {
         margin-right: 8vw;
