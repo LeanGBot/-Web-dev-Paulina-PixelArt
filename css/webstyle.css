@@ -3,6 +3,7 @@
     .mobile {
         display: none;
     }
+
     body {
         height: 100vh;
         background-image: url(../assets/img/WoodTile64x25.png);
@@ -11,8 +12,11 @@
         background-position: bottom;
     }
     .desktop {
-        display: inline-flex;
-
+        display: block;
+    }
+    .sec1, .sec2 {
+        display: flex;
+    
     }
     html {
         background: url(../assets/img/woodTile64x64.png);
@@ -28,7 +32,7 @@
         border-radius: 50%;
     }
     .titaut {
-        width: 90%;
+        width: 40%;
         margin-top: 5vh;
         text-align: center;
         color: ivory;
@@ -36,9 +40,10 @@
     .imgfb, .imgtt, .imgdeviant, .imgpixilart, .imgartstation, .imginsta {
         background-repeat: no-repeat;
         background-size: cover;
-        width: 10vw;
-        height: 10vw;
-        margin: auto;
+        width: 130px;
+        height: 130px;
+        margin-left: 2vw;
+        margin-right: 2vw;
     }
     .imginsta {
         background-image: url(../assets/img/socialmedia/IconIG.png);
