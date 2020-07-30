@@ -3,13 +3,18 @@
     .mobile {
         display: none;
     }
-
     body {
         height: 100vh;
         background-image: url(../assets/img/WoodTile64x25.png);
         background-repeat: repeat-x;
         position: static;
         background-position: bottom;
+    }
+    .speech-bubble {
+        background-image: url(../assets/img/socialmedia/globe-ig.png);
+        width: 280px;
+        height: 120px;
+        background-repeat: no-repeat;
     }
     .desktop {
         display: block;
@@ -26,8 +31,8 @@
         background-image: url(../assets/img/AvatarInsta2.png);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 15vw;
-        height: 15vw;
+        width: 187px;
+        height: 187px;
         border: 4px white solid;
         border-radius: 50%;
     }
