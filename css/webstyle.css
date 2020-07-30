@@ -21,7 +21,6 @@
     }
     .sec1, .sec2 {
         display: flex;
-    
     }
     html {
         background: url(../assets/img/woodTile64x64.png);
