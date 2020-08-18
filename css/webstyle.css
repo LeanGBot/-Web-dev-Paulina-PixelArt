@@ -1,3 +1,23 @@
+.imginsta {
+    background-image: url(../assets/img/socialmedia/IG.svg);
+}
+.imgfb {
+    background-image: url(../assets/img/socialmedia/FB.svg);
+}
+.imgtt {
+    background-image: url(../assets/img/socialmedia/TT.svg);
+}
+.imgdeviant {
+    background-image: url(../assets/img/socialmedia/DA.svg);
+}
+.imgpixilart {
+    background-image: url(../assets/img/socialmedia/Pixil.svg);
+}
+.imgartstation {
+    background-image: url(../assets/img/socialmedia/ARTs.svg);
+}
+
+
 /*Desktop*/
 @media only screen and (min-width: 600px) {
     .mobile {
@@ -5,10 +25,48 @@
     }
     body {
         height: 100vh;
-        background-image: url(../assets/img/WoodTile64x25.png);
+        background-image: url(../assets/img/floor.png);
         background-repeat: repeat-x;
         position: static;
         background-position: bottom;
+    }
+    /*
+    .ladder {
+        background-image: url(../assets/img/ladder.png);
+        position: fixed;
+        background-repeat: no-repeat;
+        bottom: 6vh;
+        left: 80vw;
+        height: 53vh;
+        width: 20vw;
+    }
+    */    
+    .deco1 {
+        background-image: url(../assets/img/Grafiti.svg);
+        position: fixed;
+        background-repeat: no-repeat;
+        bottom: 2vh;
+        left: 19vw;
+        height: 11vh;
+        width: 14vw;
+    }
+    .plantbttm {
+        background-image: url(../assets/img/plant-inf.svg);
+        position: fixed;
+        background-repeat: no-repeat;
+        bottom: 3vh;
+        left: 4vw;
+        height: 45vh;
+        width: 20vw;
+    }
+    .plantSup {
+        background-image: url(../assets/img/plant-sup.svg);
+        position: fixed;
+        background-repeat: no-repeat;
+        top: 0vh;
+        left: 70vw;
+        height: 150px;
+        width: 110px;
     }
     .speech-bubble {
         background-image: url(../assets/img/socialmedia/globe-ig.png);
@@ -23,17 +81,17 @@
         display: flex;
     }
     html {
-        background: url(../assets/img/woodTile64x64.png);
+        background: url(../assets/img/Wall.png);
         background-attachment: fixed;
     }
     .avatar {
-        background-image: url(../assets/img/AvatarInsta2.png);
-        background-repeat: no-repeat;
+        background-image: url(../assets/img/sign.svg);
+        background-repeat: no-repeat;   
         background-size: cover;
-        width: 187px;
-        height: 187px;
-        border: 4px white solid;
-        border-radius: 50%;
+        position: fixed;
+        left: 42%;
+        width: 244px;
+        height: 338px;
     }
     .titaut {
         width: 40%;
@@ -43,29 +101,34 @@
     }
     .imgfb, .imgtt, .imgdeviant, .imgpixilart, .imgartstation, .imginsta {
         background-repeat: no-repeat;
-        background-size: cover;
-        width: 130px;
-        height: 130px;
-        margin-left: 2vw;
-        margin-right: 2vw;
+        background-size: contain;
+        position: fixed;
+        width: 6vw;
+        height: 6vw;
     }
     .imginsta {
-        background-image: url(../assets/img/socialmedia/IconIG.png);
+        top: 25vh;
+        left: 31vw;
     }
     .imgfb {
-        background-image: url(../assets/img/socialmedia/IconFB.png);
-    }
-    .imgtt {
-        background-image: url(../assets/img/socialmedia/IconTT.png);
-    }
-    .imgdeviant {
-        background-image: url(../assets/img/socialmedia/IconDA.png);
+        top: 45vh;
+        left: 27vw;
     }
     .imgpixilart {
-        background-image: url(../assets/img/socialmedia/IconPixil.png);
+        top: 65vh;
+        left: 31vw;
+    }
+    .imgdeviant {
+        top: 25vh;
+        right: 31vw;
+    }
+    .imgtt {
+        top: 45vh;
+        right: 27vw;
     }
     .imgartstation {
-        background-image: url(../assets/img/socialmedia/IconArtS.png);
+        top: 65vh;
+        right: 31vw;
     }
 }
 
@@ -77,23 +140,30 @@
     .mobile {
         display: flex;
         height: 100vh;
-        background-image: url(../assets/img/WoodTile64x25.png);
+        background-image: url(../assets/img/floor.png);
         background-repeat: repeat-x;
         position: static;
         background-position: bottom;
     }
+    .plant {
+        background-image: url(../assets/img/plant-sup.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: fixed;
+        top: 0;
+        width: 20vw;
+        height: 11vh;
+        left: 20vw;
+    }
     .avatar {
-        background-image: url(../assets/img/AvatarInsta2.png);
+        background-image: url(../assets/img/sign.png);
         background-repeat: no-repeat;
         background-size: cover;
         width: 50vw;
-        height: 50vw;
-        border: 4px white solid;
-        border-radius: 50%;
-        margin-top: 5vh;
+        height: 70vw;
     }
     html {
-        background: url(../assets/img/woodTile64x64.png);
+        background: url(../assets/img/Wall.png);
         background-attachment: fixed;
     }
     .titaut h1{
@@ -101,7 +171,7 @@
     }
     .mob_sec1, .mob_sec2 {
         position: relative;
-        top: 35vh;
+        top: 37vh;
         height: 310px;
     }
     .mob_sec1 {
@@ -116,23 +186,5 @@
         width: 80px;
         height: 80px;
         margin: 5vw;
-    }
-    .imginsta {
-        background-image: url(../assets/img/socialmedia/IconIG.png);
-    }
-    .imgfb {
-        background-image: url(../assets/img/socialmedia/IconFB.png);
-    }
-    .imgtt {
-        background-image: url(../assets/img/socialmedia/IconTT.png);
-    }
-    .imgdeviant {
-        background-image: url(../assets/img/socialmedia/IconDA.png);
-    }
-    .imgpixilart {
-        background-image: url(../assets/img/socialmedia/IconPixil.png);
-    }
-    .imgartstation {
-        background-image: url(../assets/img/socialmedia/IconArtS.png);
     }
 }

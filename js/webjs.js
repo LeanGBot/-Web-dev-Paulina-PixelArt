@@ -5,6 +5,7 @@ $(document).ready(function(){
 
     $('.imginsta').on("mouseover", function(){
         $('.speech-bubble').css("background-image", "url(../assets/img/socialmedia/globe-ig.png)");      
+        $('.speech-bubble').css("background-image", "url(../assets/img/socialmedia/globe-ig.png)");  
         $('.speech-bubble').show();
     }).on("mouseout", function(){$('.speech-bubble').hide();})
 
