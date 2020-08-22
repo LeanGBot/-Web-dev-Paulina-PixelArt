@@ -55,7 +55,7 @@
         position: fixed;
         background-repeat: no-repeat;
         bottom: 3vh;
-        left: 4vw;
+        left: 60vw;
         height: 45vh;
         width: 20vw;
     }
@@ -64,7 +64,7 @@
         position: fixed;
         background-repeat: no-repeat;
         top: 0vh;
-        left: 70vw;
+        left: 37vw;
         height: 150px;
         width: 110px;
     }
@@ -107,29 +107,39 @@
         height: 6vw;
     }
     .imginsta {
-        top: 25vh;
-        left: 31vw;
+        top: 37vh;
+        left: 35vw;
     }
     .imgfb {
-        top: 45vh;
-        left: 27vw;
+        top: 50vh;
+        left: 42vw;
     }
     .imgpixilart {
         top: 65vh;
-        left: 31vw;
+        left: 37vw;
     }
     .imgdeviant {
-        top: 25vh;
+        top: 37vh;
         right: 31vw;
     }
     .imgtt {
         top: 45vh;
-        right: 27vw;
+        right: 40vw;
     }
     .imgartstation {
-        top: 65vh;
-        right: 31vw;
+        top: 60vh;
+        right: 42vw;
     }
+    /*.shadowbkg {
+        background-image: url(../assets/img/Sombra.png);
+        position: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: -21vh;
+        opacity: 0.6;
+        height: 100%;
+        width: 100%;
+    }*/
 }
 
 /*Mobile*/
